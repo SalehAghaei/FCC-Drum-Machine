@@ -1,0 +1,31 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set body to fill the viewport and use a flex layout to center content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  /* Set html and body to use the full viewport height */
+  html, body {
+    height: 100%;
+  }
+  
+  #root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
